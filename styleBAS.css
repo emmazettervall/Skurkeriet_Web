@@ -61,11 +61,11 @@ nav li{
 	padding-bottom: 11px;
 }
 p{
-	font-size: calc(16px + 0.4vw);
+	font-size: calc(10px + 0.8vw);
 	
 }
 .main {
-	margin: 0 14% 0 14%;
+	margin: 0 12% 0 12%;
 	padding: 12px;
 	background-color: transparent;
 	
@@ -210,26 +210,16 @@ border-radius: 7px;
 }
 
 .navbartext{
-/*position:absolute ;
-width: 133px;
-height: 33px;
-left: 775px;
-top: 28px;
-*/
+
 font-family: 'Source Sans Pro', sans-serif;
 font-style: normal;
-/*font-weight: 400;*/
-font-size: 19px;
-/*line-height: 32px;*/
-/* or 267% */
-
+font-size: 22px;
 text-align: center;
 display: flex;
 justify-content: center;
 padding-top: 13px;
 padding-bottom: 15px;
 padding: 15px;
-
 color: #000000;
 }
 .target {

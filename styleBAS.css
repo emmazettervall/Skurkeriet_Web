@@ -61,11 +61,11 @@ nav li{
 	padding-bottom: 11px;
 }
 p{
-	font-size: calc(10px + 0.8vw);
+	font-size: calc(16px + 0.4vw);
 	
 }
 .main {
-	margin: 0 12% 0 12%;
+	margin: 0 14% 0 14%;
 	padding: 12px;
 	background-color: transparent;
 	
@@ -144,7 +144,7 @@ p{
 }
 
 .proftext p{
-	font-size: calc(11px + 0.6vw);
+	font-size: calc(11px + 0.4vw);
 }
 
 .info{
@@ -160,13 +160,13 @@ p{
 	margin-bottom: 18px;
 	text-align: center;
 	border-top: 1px solid #e4e4e4;	
-	display: flex;
+	display: flow-root;
 	
 
 }
 .Rek img{
 	text-align: center;
-	max-height: 80%;
+	max-height: 64%;
 	max-width: 64%;
 	padding: 5%;
 }
@@ -210,16 +210,26 @@ border-radius: 7px;
 }
 
 .navbartext{
-
+/*position:absolute ;
+width: 133px;
+height: 33px;
+left: 775px;
+top: 28px;
+*/
 font-family: 'Source Sans Pro', sans-serif;
 font-style: normal;
-font-size: 22px;
+/*font-weight: 400;*/
+font-size: 19px;
+/*line-height: 32px;*/
+/* or 267% */
+
 text-align: center;
 display: flex;
 justify-content: center;
 padding-top: 13px;
 padding-bottom: 15px;
 padding: 15px;
+
 color: #000000;
 }
 .target {
@@ -233,9 +243,14 @@ color: #000000;
 	pointer-events: none;
 }
 .paper{
-	padding: 10%;
+	padding: 8%;
 	background-color: white;
 	box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+	height: 300px;
+}
+.modal-dialog-scrollable .paper{
+   
+	overflow: scroll;
 }
 .modal::before {
 	content: '';
@@ -246,7 +261,7 @@ color: #000000;
   }
   .modal {
 	position: fixed;
-	top: 10%;
+	top: 7vw;
 	right: 0;
 	left: 0;
 	bottom: 0;
@@ -255,7 +270,10 @@ color: #000000;
 	display: none;
 	/* Fallback for legacy browsers */
 	background-color: rgba(0,0,0,0.6);
+	display: block !important;
+	
   }
+ 
   .modal > .content {
 	 font-size: calc(11px + 0.5vw);
 	 text-align: left;
@@ -276,10 +294,10 @@ color: #000000;
 	  position: absolute;
 	  top: 18px;
 	  right: 18px;
-	  width: 15px;
+	  width: 30px;
 	  height: 15px;
 	  color: black;
-	  font-size: 18px;
+	  font-size: 30px;
 	  text-decoration: none;
    }
   

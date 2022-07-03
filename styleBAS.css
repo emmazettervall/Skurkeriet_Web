@@ -6,7 +6,7 @@
   }
   body {
 	color: black;
-	background-color: #e4e4e4;
+	background-color: #efe9d649;
   }
   
 h1 {
@@ -16,6 +16,7 @@ h1 {
 
 h2  {
 	margin: 10px;
+	
 	text-align: center;
 }
 
@@ -75,6 +76,7 @@ p{
 }
 .contacts{
 	margin: auto;
+	margin-bottom: 20px;
 	overflow: auto;
 	
 	clear: both;
@@ -320,7 +322,7 @@ color: #000000;
 	transform: scale(1, 1);
   }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 600px) {
 	p{
 	font-size: calc(13px + 0.4vw);
 	}

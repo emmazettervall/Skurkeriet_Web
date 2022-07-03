@@ -144,7 +144,7 @@ p{
 }
 
 .proftext p{
-	font-size: calc(11px + 0.4vw);
+	font-size: calc(11px + 0.6vw);
 }
 
 .info{
@@ -167,7 +167,7 @@ p{
 .Rek img{
 	text-align: center;
 	max-height: 80%;
-	max-width: 80%;
+	max-width: 64%;
 	padding: 5%;
 }
 
@@ -266,6 +266,7 @@ color: #000000;
 	 position: relative;
 	 width: 90%;
 	 padding: 3%;
+	 padding-top: 1%;
 	 outline: #000;
 	 border-radius: 7px;
 	 border: 1px solid black;

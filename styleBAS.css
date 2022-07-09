@@ -19,6 +19,9 @@ h2  {
 	
 	text-align: center;
 }
+h3{
+	text-decoration: underline;
+}
 
 .wrapper {
 	display: flex;
@@ -39,7 +42,7 @@ h2  {
 	padding: 0;
   	height: 33vw;
 	width: 100%;
-	background: url(pics/cringe4.jpg)no-repeat; 
+	background: url(pics/cringe5.jpg)no-repeat; 
 	background-position: center 65%;
     -webkit-background-size: cover;
     -moz-background-size: cover;

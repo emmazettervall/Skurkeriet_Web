@@ -7,4 +7,3 @@ function choosePic() {
      document.getElementById("myPicture").src = myPix[randomNum];
 }
 	 
-	

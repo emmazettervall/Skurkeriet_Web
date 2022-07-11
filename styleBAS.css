@@ -22,7 +22,22 @@ h2  {
 h3{
 	text-decoration: underline;
 }
-
+a:link {
+	text-decoration: none;
+	color:#6a8d6b;
+  }
+  
+  a:visited {
+	text-decoration: none;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  a:active {
+	text-decoration: underline;
+  }
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -130,9 +145,12 @@ p{
 }	
 
 .profile{
-	border-radius: 50%;
+	border-radius: 40px;
 	width: 14vw;
 	display: inline-block;
+	border: solid;
+    padding: 3px;
+    color: #333;
 }
 
 .contacts br{

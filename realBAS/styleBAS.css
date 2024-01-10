@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+* {
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	
+  }
+  body {
+	color: black;
+	background-color: #efe9d649;
+  }
+  
+h1 {
+	text-align: center;
+	font-size:40px;
+}
+
+h2  {
+	margin: 10px;
+	
+	text-align: center;
+}
+h3{
+	text-decoration: underline;
+}
+a:link {
+	text-decoration: none;
+	color:#6a8d6b;
+  }
+  
+  a:visited {
+	text-decoration: none;
+  }
+  
+  a:hover {
+	text-decoration: underline;
+  }
+  
+  a:active {
+	text-decoration: underline;
+  }
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 70vh;
+	border-bottom: 1px solid #e4e4e4;
+  }
+
+
+.logo img{
+	width: 150px;
+	max-height: 100%;
+	max-width: 100%;
+	padding-top: 10px;
+
+}
+.page-header {
+	background-color: #f4f4f4;
+	padding: 0;
+  	height: 33vw;
+	width: 100%;
+	background: url(pics/cringe5.jpg)no-repeat; 
+	background-position: center 65%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+	justify-content: center;
+	align-items: center;
+}
+
+ul{overflow: auto;}
+
+nav li:first-child{
+	float: left;
+	
+}
+nav li{
+	padding-right: 5vw;
+	float: right;
+	padding-bottom: 11px;
+}
+p{
+	font-size: calc(16px + 0.4vw);
+	
+}
+.main {
+	margin: 0 14% 0 14%;
+	padding: 12px;
+	background-color: transparent;
+	
+}
+#Nolleveckan {
+    margin: 20px 0;
+   
+}
+.contacts{
+	margin: auto;
+	margin-bottom: 20px;
+	overflow: auto;
+	
+	clear: both;
+	border-top: 1px solid #efe9d6;
+	display: table;
+}
+.container:first-child{
+	margin-right: 6vw;
+}
+.container{
+	float:left;
+	margin: 20px 20px 20px 20px;
+	justify-items: center;
+    text-align: center;
+	display: grid;
+}
+.page-footer {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	right:0;
+	background: #beb9ab7c;
+}
+.page-header nav {
+	padding: 0 15px 0 15px;
+    display: flex;
+    top: 0; left: 0; right: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #efe9d6;
+    font-size: calc(8px + 1.2vw);
+
+}
+.page-header a{
+	color: black;
+    text-decoration: none;
+}
+.page-header ul {
+	display: flex;
+	order: 1;
+	
+	margin-top: 15px;
+}
+.page-header li {
+	list-style:  none;
+}	
+
+.profile{
+	border-radius: 40px;
+	width: 14vw;
+	display: inline-block;
+	border: solid;
+    padding: 3px;
+    color: #333;
+}
+
+.contacts br{
+	display: block; 
+	line-height: 3wv;
+	
+}
+.proftext{
+	float: right;
+	margin-top: 3vw;
+	
+}
+
+.proftext p{
+	font-size: calc(11px + 0.4vw);
+}
+
+.info{
+	margin: 0 20%;
+    
+}
+
+
+.Rek{
+	
+	width: 100%;
+	height: 16vw;
+	margin-bottom: 18px;
+	text-align: center;
+	border-top: 1px solid #e4e4e4;	
+	display: flow-root;
+	
+
+}
+.Rek img{
+	text-align: center;
+	max-height: 50%;
+	max-width: 50%;
+	padding: 5%;
+}
+
+.butt 
+{
+	/*
+width: 159px;
+height: 50px;
+left: 761px;
+top: 19px;
+
+background:  #998e818e;
+display: block;
+box-shadow: 5px 5px 5px #aaaaaa; 
+
+font-weight: 700;
+	padding: 0;	
+	width: 159px;
+	height: 50px;
+		border-style: none;
+*/
+background: #000;
+	padding:0;
+border-radius: 7px;
+	margin-top: 8px;
+
+}
+.butt span {
+	
+	background: #efe9d6;
+	border: 1px solid #000;
+	border-radius: 5px;
+	transform: translate3d(-4px, -4px, 0);
+	transition: transform 0.3s cubic-bezier(0.7, 0, 0.2, 1);
+}
+
+.butt:hover span{
+	transform: translate3d(-8px, -8px, 0);
+	cursor: pointer;
+}
+
+
+.navbartext{
+/*position:absolute ;
+width: 133px;
+height: 33px;
+left: 775px;
+top: 28px;
+*/
+font-family: 'Source Sans Pro', sans-serif;
+font-style: normal;
+/*font-weight: 400;*/
+font-size: 19px;
+/*line-height: 32px;*/
+/* or 267% */
+
+text-align: center;
+display: flex;
+justify-content: center;
+padding-top: 13px;
+padding-bottom: 15px;
+padding: 15px;
+
+color: #000000;
+}
+.target {
+	display: block;
+	left: 0;
+	position: fixed;
+	top: 0;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	pointer-events: none;
+}
+.paper{
+	padding: 8%;
+	background-color: white;
+	box-shadow: 0 5px 5px rgb(0 0 0 / 10%);
+	height: 300px;
+}
+.modal-dialog-scrollable .paper{
+   
+	overflow: scroll;
+}
+.modal::before {
+	content: '';
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+	margin: 0;
+  }
+  .modal {
+	position: fixed;
+	top: 7vw;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	z-index: 100;
+	text-align: center;
+	display: none;
+	/* Fallback for legacy browsers */
+	background-color: rgba(0,0,0,0.6);
+	display: block !important;
+	
+  }
+ 
+  .modal > .content {
+	 font-size: calc(11px + 0.5vw);
+	 text-align: left;
+	 display: inline-block;
+	 background-color: #89b3d1e5;
+	 box-sizing: border-box;
+	 color: black;
+	 position: relative;
+	 width: 90%;
+	 padding: 3%;
+	 padding-top: 1%;
+	 outline: #000;
+	 border-radius: 7px;
+	 border: 1px solid black;
+   }
+  
+   .modal > .content .close-btn {
+	  position: absolute;
+	  top: 18px;
+	  right: 18px;
+	  width: 30px;
+	  height: 15px;
+	  color: black;
+	  font-size: 30px;
+	  text-decoration: none;
+   }
+  
+   /* Behaviour on legacy browsers */
+  .target:target + .modal {
+	  display: block;
+  }
+  
+  /* Fallback for IE8 */
+  .modal.is-expanded {
+	 display: block;
+  }
+  .modal.is-expanded > .content {
+	top: 50%;
+	margin-top: -45px;
+  }
+  
+  
+  /* Behavior on modern browsers */
+  :root .modal {
+	display: block;
+	background-color: transparent;
+	transition: transform 0.3s cubic-bezier(0.5, -0.5, 0.5, 1.5);
+	transform-origin: center center;
+	transform: scale(0, 0);
+  }
+  :root .modal > .content {
+	box-shadow: 0 5px 10px rgba(0,0,0, 0.3);
+  }
+  :root .target:target + .modal {
+	transform: scale(1, 1);
+  }
+
+@media screen and (max-width: 600px) {
+	p{
+	font-size: calc(13px + 0.4vw);
+	}
+	
+	
+
+    .page-header .cta-contact {
+		order: 1;
+	}
+
+	
+	.info{
+		margin: 0 20%;
+		/*-webkit-column-count: 1; Chrome, Safari, Opera 
+		-moz-column-count: 1; Firefox 
+		column-count: 1;*/
+	}
+	
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 10px;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  border-bottom: 10px solid red;
+}
+}
